@@ -117,6 +117,7 @@ function AllProducts() {
         <tbody>
           {allProducts.map((product) => (
             <tr key={product?.productName}>
+              <td>{product.productName}</td>
               <td>{product.price}</td>
               <td>{product.rating}</td>
               <td>{product.discount}</td>
